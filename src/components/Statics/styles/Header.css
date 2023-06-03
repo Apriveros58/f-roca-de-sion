@@ -1,0 +1,35 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header figure {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
+.Header figure img {
+    min-width: 100%;
+    min-height: 100%;
+}
+.Header figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 128, 0, 0.579);
+    text-align: center;
+}
+.Header figure > .capa .inside{
+    margin-top: 21%;;
+}
+.Header button {
+    margin: 2rem;
+}
+.inside h1 {
+    color: #f3f3f3;
+    font-size: 3.5em;
+    margin: 0 0.2em;
+}

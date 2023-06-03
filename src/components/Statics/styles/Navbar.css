@@ -1,0 +1,39 @@
+nav {
+    padding: 0.8em 1em;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #008000;
+}
+.home {
+    display: flex;
+}
+.home img {
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 45px;
+    max-height: 45px;
+    float: left;
+}
+.home h1 {
+    font-size: 2rem;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+    color: #008000;
+}
+.nav_pages ul li{
+    display: inline-block;
+    margin-inline: 1em;
+    margin-bottom: 0.1em;
+}
+.text{
+    color: #008000;
+}
+@media (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+}

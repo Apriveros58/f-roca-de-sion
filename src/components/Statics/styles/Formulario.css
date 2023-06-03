@@ -1,0 +1,66 @@
+.Formulario {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2.5em;
+    padding-bottom: 3em;
+    overflow: hidden;
+    border-bottom: 1px solid #008000;
+}
+.ul_Up li{
+    display: inline-block;
+    margin: 0.5em;
+}
+.ul_Down {
+    margin: 1em 0.5em;
+}
+.Formulario input{
+    margin: 0.5em 0em;
+    
+    padding: 0.4em;
+    border: 1px solid #008000;
+    border-radius: 5px;
+    outline: none;
+}
+.Formulario input::placeholder, textarea::placeholder{
+    color: #008000;
+}
+.ul_Down textarea {
+    height: 7em;
+}
+.Formulario input:hover, .Formulario textarea:hover{
+    border: 2px solid  #F29544;
+}
+textarea {
+    margin: 0.5em 0;
+    border: 1px solid #008000;
+    border-radius: 5px;
+    padding: 0.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+    width: 95%;
+}
+.Formulario button h1 {
+    color: white;
+    font-size: medium;
+    background-color: transparent;
+    padding: 0 0.5px;
+}
+.Formulario button {
+    margin-top: -0.5em;
+    width: 65%;
+    overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+    .Formulario {
+        margin-top: -0.5em;
+        width: 90%;
+    }
+    .Formulario button {
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width:1167px) {
+    .Formulario {
+        margin-top: 4em;
+    }
+}

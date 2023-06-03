@@ -1,0 +1,62 @@
+.Hablar {
+    border: 2px solid #008000;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    outline: 0;
+    margin-top: 2.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+.Hablar h1 {
+    color: #F29544;
+    background: white;
+    padding: 0 15px;
+}
+.over_title {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-top: -20px;
+}
+.Hablar .contact_info {
+    padding-top: 50px;
+    margin-left: 0.1em;
+    margin-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+.icon {
+    padding: 0 3em;
+    color: #008000;
+}
+.material-symbols-rounded{
+    font-size: 2em;
+    margin: 2px;
+}
+.contact_info .text {
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .Hablar {
+        margin-top: 2em;
+        margin-left: 0.5em;
+        margin-right: 15px;
+        padding: 5.5em 0;
+    }
+    .Hablar table {
+        padding-top: 1em;
+        margin-bottom: 0.5em;
+    }
+}
+
+

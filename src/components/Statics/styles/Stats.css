@@ -1,0 +1,35 @@
+.stats {
+    margin: 1em 7em;
+}
+.stats h2{
+    color: #F29544;
+    font-family: 'Bitter';
+    font-size: 3em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.stats h3{
+    color: #F29544;
+    font-family: 'Bitter';
+}
+
+.text2{
+    color: #F29544;
+    font-weight: 200;
+}
+.cita{
+    color: #F29544;
+    font-size: 7px;
+}
+.stats table{
+    width: 100%;
+}
+.cita a{
+    text-decoration: none;
+    color: #F29544;
+}
+#help_button{
+    margin: 0 30%;
+}
+

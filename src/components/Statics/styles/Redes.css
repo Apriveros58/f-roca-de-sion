@@ -1,0 +1,22 @@
+.redes{
+    margin-top: 1em;
+    padding: 1em;
+}
+.redes td{
+    padding-right: 1em;
+}
+.redes .icon_content{
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    color: #F29544;
+}
+.espacio{
+    padding: 0 3em;
+    color: white;
+}
+#redesS, #visita {
+    margin-left: 15%;
+}
+#habla {
+    margin-left: 8em;
+}

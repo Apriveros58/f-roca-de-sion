@@ -1,0 +1,20 @@
+.location_info{
+    margin: 2em;
+    color: #008000;
+    float: right;
+}
+
+#location_icon{
+    color: #F29544;
+}
+.location_info h2{
+    font-size: 2em;
+    font-weight: 400;
+}
+.location_info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.map {
+    border-radius: 33px;
+}

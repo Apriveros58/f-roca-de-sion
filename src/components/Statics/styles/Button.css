@@ -1,0 +1,20 @@
+.light_action {
+    background-color: #F29544;
+}
+.dark_action {
+    background-color: #F27244;
+}
+.light_action, .dark_action{
+    border: none;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.light_action h1, .dark_action h1 {
+    font-size: 2em;
+    color: white;
+}
+.light_action:hover, .dark_action:hover  {
+    background-color: #63b263;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.44);
+}
